@@ -1,4 +1,5 @@
-function addToArrImpure(arr, val) {
+//impure functions are bad, pure functions are good.  
+function addToArrImpure(arr, val) { 
     arr.push(val);
     return arr;
   }
