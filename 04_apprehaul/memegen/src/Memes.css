@@ -1,0 +1,46 @@
+.meme {
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: white;
+	position: relative;
+	font-size: 3rem;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	margin: 10px auto;
+}
+
+.meme img {
+	width: 100%;
+}
+
+#meme-top-text {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1%;
+}
+
+#meme-bottom-text {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 1%;
+}
+
+.meme button {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	-webkit-text-stroke: 0;
+}
+
+#deleteBtn {
+	position: absolute;
+	top: 1%;
+	right: 1%;
+}
+
+#editBtn {
+	position: absolute;
+	bottom: 1%;
+	left: 1%;
+}
