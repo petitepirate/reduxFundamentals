@@ -1,5 +1,5 @@
 import React from "react";
-import CommentComponent from "./CommentComponent";
+import Comment from "./Comment";
 import CommentForm from "./CommentForm";
 
 const CommentSection = ({ story }) => {
@@ -8,7 +8,7 @@ const CommentSection = ({ story }) => {
         <main className="CommentSection mb-4">
             <h2>Comments</h2>
             {
-                story.comments.map(comment => <CommentComponent comment={comment} key={comment.id} storyId={story.id} />)
+                story.comments.map(comment => <Comment comment={comment} key={comment.id} storyId={story.id} />)
             }
             <CommentForm storyId={story.id} />
         </main>

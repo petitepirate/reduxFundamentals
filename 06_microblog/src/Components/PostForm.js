@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from "react-redux";
 import { v4 as uuidv4 } from 'uuid';
 import { useHistory } from "react-router-dom";
-import { sendPostToAPI, updatePostFromAPI } from "../Reducers/Actions/posts";
+import { sendPostToAPI, updatePostFromAPI } from "../Actions/posts";
 
 const PostForm = ({ story = {id: uuidv4(), title: "", description: "" , body: ""}, formType="create", toggleEditState }) => {
   const dispatch = useDispatch();

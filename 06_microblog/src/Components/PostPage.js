@@ -4,7 +4,7 @@ import { useParams, useHistory } from "react-router-dom";
 import PostDetail from "./PostDetail";
 import PostForm from "./PostForm";
 import VotesDisplay from "./VotesDisplay";
-import { removePostFromAPI, fetchPostFromAPI } from "../Reducers/Actions/posts";
+import { removePostFromAPI, fetchPostFromAPI } from "../Actions/posts";
 
 const PostPage = () => {
     const history = useHistory();

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addCommentToAPI } from "../Reducers/Actions/posts";
+import { addCommentToAPI } from "../Actions/posts";
 
 const CommentForm = ({ storyId }) => {
     const dispatch = useDispatch();

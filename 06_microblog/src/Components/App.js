@@ -1,6 +1,6 @@
 import { Route, NavLink, Switch } from "react-router-dom";
-import HomePage from "./HomePage";
-import NewPostPage from "./NewPostPage";
+import Home from "./Home";
+import NewPost from "./NewPost";
 import PostPage from "./PostPage";
 import './App.css';
 
@@ -21,10 +21,10 @@ function App() {
       {/* ROUTES */}
       <Switch>
         <Route exact path="/new">
-          <NewPostPage />
+          <NewPost />
         </Route>
         <Route exact path="/">
-          <HomePage />
+          <Home />
         </Route>
         <Route exact path="/:postId">
           <PostPage />

@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { voteToAPI } from "../Reducers/Actions/posts";
+import { voteToAPI } from "../Actions/posts";
 
 const VotesDisplay = ({ storyId, votes }) => {
     const dispatch = useDispatch();

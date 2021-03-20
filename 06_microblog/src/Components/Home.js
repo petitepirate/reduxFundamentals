@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import StoryCard from "./StoryCard";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchTitlesFromAPI } from "../Reducers/Actions/titles";
+import { fetchTitlesFromAPI } from "../Actions/titles";
 
 const Home = () => {
     const [isLoading, setIsLoading] = useState(true);
